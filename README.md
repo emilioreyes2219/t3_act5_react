@@ -1,16 +1,65 @@
-# React + Vite
+# Act5. 
+**Alumno:** Jorge Emilio Nuñez Reyes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Proyecto desplegado en GitHub Pages
 
-Currently, two official plugins are available:
+**Enlace:**  
+https://emilioreyes2219.github.io/t3_act5_react/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Descripción del proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este proyecto fue desarrollado utilizando **React** con **Vite** como parte de la actividad **"Introducción a React - Fundamentos y Primer Componente"**.
 
-## Expanding the ESLint configuration
+La aplicación incluye los conceptos básicos de React solicitados en la actividad:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Un componente funcional llamado **Saludo**.
+- Un componente llamado **Tarjeta** que recibe y muestra datos mediante **props**.
+- Un componente llamado **Contador** que utiliza **useState** para aumentar y disminuir un contador.
+- Un componente llamado **ListaTareas** que muestra una lista de tareas utilizando el método **.map()** y la propiedad **key**.
+
+El objetivo del proyecto es aprender el funcionamiento básico de React mediante la creación de componentes reutilizables, el uso de propiedades, el manejo del estado y el renderizado dinámico de listas.
+
+---
+
+# Cuestionario
+
+## a) ¿Qué diferencia hay entre props y state en React?
+
+
+
+Las **props** son datos que un componente recibe desde otro componente y sirven para enviar información. Las props no deben modificarse dentro del componente que las recibe. En cambio, el **state** es información propia del componente que puede cambiar durante la ejecución de la aplicación, permitiendo actualizar la interfaz cuando ocurre algún evento.
+
+---
+
+## b) ¿Por qué es importante usar una key al renderizar una lista de elementos?
+
+
+La propiedad **key** permite que React identifique de forma única cada elemento de una lista. Esto ayuda a actualizar únicamente los elementos que cambian, mejorando el rendimiento y evitando errores cuando la lista se modifica.
+
+---
+
+## c) Explica con tus propias palabras qué hace la función useState y da un ejemplo de dónde la usaste en tu mini aplicación.
+
+
+
+La función **useState** permite crear y administrar el estado de un componente. Gracias a ella, los datos pueden cambiar y React actualiza automáticamente la información que se muestra en la pantalla. En mi aplicación la utilicé en el componente **Contador**, donde el valor aumenta o disminuye al presionar los botones correspondientes.
+
+---
+
+## d) Enlace del repositorio de GitHub
+
+
+
+https://github.com/emilioreyes2219/t3_act5_react
+
+---
+
+## e) Enlace del proyecto desplegado en GitHub Pages
+
+
+
+https://emilioreyes2219.github.io/t3_act5_react/
+
+---
